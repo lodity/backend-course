@@ -3,14 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "mongoose": "^7.2.2"
   },
   "prettier": {
     "trailingComma": "es5",
@@ -19,5 +22,8 @@
     "semi": true,
     "singleQuote": true,
     "printWidth": 80
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }
